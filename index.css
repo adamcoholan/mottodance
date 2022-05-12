@@ -1,3 +1,7 @@
+body {
+    background-color: #969796;
+}
+
 a {
     text-decoration: none;
     color: rgba(0,0,0,.9);
@@ -8,6 +12,59 @@ a {
     text-decoration: none;
 }
 
+
+.home-wrapper {
+    width: 100%;
+}
+
+.home-logo {
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    color: #111111;
+    margin-top: 7%;
+    margin-bottom: 2%;
+}
+
+.text-wrapper {
+    width: 100%;
+    text-align: center;
+    color: #111111;
+    background-color: rgba(0,0,0,0.3);
+    padding-top: 2%;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 2%;
+    width: 100%;
+    border: none;
+    font-size: 2.5rem;
+}
+
+.white-text {
+    color: #eeeeee;
+}
+
+.title:after, .title:before {
+    justify-content: center;
+    content:'\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0';
+    text-decoration: line-through #111111;
+    margin: auto 0.5em;
+}
+
+.sub-title {
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    font-size: 1.75rem;
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+}
+
+
 @media only screen and (max-width: 992px) {    
     .second {
         margin-left: 1%;
@@ -15,8 +72,7 @@ a {
 
   }
 
-@media only screen and (min-width: 992px) {  
-
+@media only screen and (min-width: 992px) {
     .list-head {
         padding-left: 1%;
     }
@@ -25,6 +81,8 @@ a {
         margin-left: 15%;
     }
   }
+
+
 
 
 
